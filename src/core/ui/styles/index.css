@@ -1,0 +1,64 @@
+/ Global Styles /
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #121212;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+/ Capture Button /
+.captureButton {
+  margin-bottom: 20px;
+}
+
+/ Capture Options /
+.captureOptions {
+  margin-bottom: 20px;
+}
+
+/ Capture Settings /
+.captureSettings {
+  margin-bottom: 20px;
+}
+
+/ Capture History /
+.captureHistory {
+  margin-bottom: 20px;
+}
+
+/ Image Editor /
+.imageEditor {
+  margin-bottom: 20px;
+}
+
+/ Cloud Integration /
+.cloudIntegration {
+  margin-bottom: 20px;
+}
+
+/ Responsive Design /
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+}
